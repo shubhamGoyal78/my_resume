@@ -1,4 +1,4 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -328,22 +328,17 @@ export const FOOTER_DATA = [
     ],
   },
   {
-    title: "About",
+    title: "Contact",
     data: [
       {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
+        name: "+91 6378452484",
+        icon: FaPhoneAlt,
+        link: "tel:+916378452484",
       },
       {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
+        name: "shubhamgoyal78m@gmail.com",
+        icon: FaEnvelope,
+        link: "mailto:shubhamgoyal78m@gmail.com",
       },
     ],
   },
@@ -362,7 +357,19 @@ export const NAV_LINKS = [
     title: "Projects",
     link: "#projects",
   },
+  {
+    title: "Enquiry",
+    link: "#enquiry",
+  },
 ] as const;
+
+export const CONTACT_DETAILS = {
+  phoneLabel: "+91 6378452484",
+  phoneLink: "tel:+916378452484",
+  email: "shubhamgoyal78m@gmail.com",
+  availability:
+    "Tell me about your project, budget, and timeline. I will receive your enquiry directly by email and get back to you soon.",
+} as const;
 
 export const LINKS = {
   sourceCode: "https://github.com/sanidhyy/space-portfolio",
