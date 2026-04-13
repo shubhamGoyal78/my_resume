@@ -47,6 +47,7 @@ Here is the folder structure of this app.
 ```bash
 space-portfolio/
   |- app/
+    |-- api/
     |-- apple-icon.png
     |-- favicon.ico
     |-- globals.css
@@ -65,6 +66,8 @@ space-portfolio/
     |-- motion.ts
     |-- utils.ts
   |- public/
+  |- .env.example
+  |- .env/.env.local
   |- .eslintrc.json
   |- .gitignore
   |- eslint.config.mjs
@@ -121,6 +124,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^10.7.7
 - [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^9.5.0
 - [@types/node](https://www.npmjs.com/package/@types/node): ^25
+- [@types/nodemailer](https://www.npmjs.com/package/@types/nodemailer): ^8.0.0
 - [@types/react](https://www.npmjs.com/package/@types/react): 19.2.14
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.3
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.27
@@ -129,6 +133,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.2.2
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.38.0
 - [next](https://www.npmjs.com/package/next): 16.2.3
+- [nodemailer](https://www.npmjs.com/package/nodemailer): ^8.0.5
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [react](https://www.npmjs.com/package/react): 19.2.5
 - [react-dom](https://www.npmjs.com/package/react-dom): 19.2.5
